@@ -26,7 +26,8 @@ int main(){
     cin>>num;
 
     c = factorial(num);
-    cout<<"The Factorial of number "<< num <<" is "<< c << endl;
+    cout<<"The Factorial of "<< num <<" is "<< c << endl;
 
     return 0;
+
 }
