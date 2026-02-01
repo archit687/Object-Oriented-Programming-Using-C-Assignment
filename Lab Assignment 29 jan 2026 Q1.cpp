@@ -17,21 +17,15 @@ class Employee{
 		cout << "Enter Employee Name " << endl;
 		cin >> E_Name;
 		
-		cout << "Enter Employee Joining Year " << endl;
-		cin >> Join_Year;
-		
 		cout << "Enter Emplyee Deignation " << endl;
 		cin >> E_Designation;
-		
-		cout << "Enter Employee Age " << endl;
-		cin >> E_Age;
 		
 		cout << "Enter Employee Salary " << endl;
 		cin >> E_Salary;
 	}
 	
 	void showDet(){
-		cout << "Employee ID " << Emp_id << endl << "Employee Name " << E_Name << endl << "Employee Joining Year " << Join_Year << endl << "Employee Designation " << E_Designation << endl << "Employee Age " << E_Age << endl << "Employee Salary " << E_Salary << endl; 
+		cout << "Employee ID " << Emp_id << endl << "Employee Name " << E_Name << endl << "Employee Designation " << E_Designation << endl << "Employee Salary " << E_Salary << endl; 
 	}	
 };
 
@@ -43,3 +37,4 @@ int main(){
 	
 	return 0;
 }
+
