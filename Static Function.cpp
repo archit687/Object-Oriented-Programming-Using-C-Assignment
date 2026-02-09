@@ -17,7 +17,7 @@ int main(){
 	s1.inc();
 	cout << "First Increment " << student::count << endl; 
 	s1.inc();
-	cout << "First Increment " << student::count << endl;
+	cout << "Second Increment " << student::count << endl;
 	
 	for(int i = 0;i<= 10;i++){
 		
@@ -28,3 +28,4 @@ int main(){
 	cout << student::count << endl;
 	return 0;
 }
+
