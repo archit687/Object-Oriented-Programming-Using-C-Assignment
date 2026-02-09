@@ -8,7 +8,7 @@ class factorial{
 	public:
 	   int fact(int fa){
 //	       f = fa;
-	       if(f < 0){
+	       if(fa < 0){
 	       	cout << "Error " << endl;
 		   }
 		   else{
@@ -40,3 +40,4 @@ int main(){
 	
 	
 }
+
